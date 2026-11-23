@@ -1,7 +1,5 @@
 def greet(name):
-    return f"Welcome, {name}!"
-
-
+    return f"Hi there, {name}!"
 def welcome(name):
     return f"Welcome to our application, {name}!"
 
