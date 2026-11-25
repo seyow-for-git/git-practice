@@ -13,3 +13,12 @@ def goodbye(name):
 def farewell(name):
     return f"See you later, {name}!"
 print(farewell("Python Developer"))
+
+
+def age_category(age):
+    if age < 18:
+        return "Minor"
+    elif age < 60:
+        return "Adult"
+    else:
+        return "Senior"
