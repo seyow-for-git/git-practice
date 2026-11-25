@@ -16,7 +16,9 @@ print(farewell("Python Developer"))
 
 
 def age_category(age):
-    if age < 18:
+    if age < 0:
+        raise ValueError("Age cannot be negative")
+    elif age < 18:
         return "Minor"
     elif age < 60:
         return "Adult"
